@@ -1,0 +1,419 @@
+.main-navigation .nav-menu>li {
+    display: block;
+    padding: 0 13px
+}
+
+.main-navigation .nav-menu>li a {
+    font-size: 16px
+}
+
+.main-navigation .nav-menu>li {
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+
+.nav-menu li:hover>ul {
+    top: 75px
+}
+
+.site-branding {
+    width: 130px;
+    margin-right: 30px
+}
+
+.header-left-items .main-navigation {
+    width: 81%;
+    width: calc(100% - 160px);
+    width: -webkit-calc(100% - 160px)
+}
+
+.main-navigation .nav-menu {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.header-right-items>* {
+    margin-left: 15px
+}
+
+.header-left-items.header-items {
+    flex: 6
+}
+
+.main-navigation {
+    height: auto
+}
+
+.footer-widgets .widget {
+    overflow: hidden;
+    text-align: center
+}
+
+.footer-widgets .widget ol>li:last-child,
+.footer-widgets .widget ul>li:last-child {
+    padding-bottom: 5px
+}
+
+.footer-widgets .widget * {
+    text-align: left
+}
+
+.footer-widgets .widget-title {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block
+}
+
+.footer-widgets .widget-title::before,
+.footer-widgets .widget-title::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 2px solid #555;
+    top: 0;
+    width: 900px;
+    bottom: 0;
+    margin: auto
+}
+
+.footer-widgets .widget-title::after {
+    left: 100%;
+    margin-left: 15px
+}
+
+.footer-widgets .widget-title::before {
+    right: 100%;
+    margin-right: 15px
+}
+
+.footer-widgets .widget li {
+    padding: 0 0 5px;
+    line-height: 1.4
+}
+
+.footer-widgets .widget a,
+.footer-widgets .widget li,
+.footer-widgets .widget p {
+    font-size: 14px
+}
+
+.footer-main {
+    padding: 35px 0 30px;
+    background: #222
+}
+
+.footer-main .footer-container .divider {
+    display: none
+}
+
+.site-footer.dark,
+.site-footer {
+    background: #272727
+}
+
+.site-footer.dark,
+.site-footer,
+.site-footer .socials-menu ul li a {
+    color: #999
+}
+
+.woocommerce div.product .quantity .qty-button {
+    line-height: 44px !important
+}
+
+.woocommerce div.product .single_add_to_cart_button {
+    min-width: 160px;
+    line-height: 1 !important;
+    padding: 10px 0;
+    font-size: 14px
+}
+
+.socials-menu a[href*="mailto:"]::before {
+    content: "\f003"
+}
+
+.copyright {
+    font-size: 17px
+}
+
+.footer-widgets .widget input[type=email] {
+    padding: 10px 0;
+    width: 100%;
+    background: 0 0;
+    border: none;
+    color: #fff;
+    font-size: 15px
+}
+
+.footer-widgets .widget input[type=submit] {
+    line-height: 1.1;
+    border: 1px solid #a8a8a8;
+    border-radius: 50px;
+    text-align: center;
+    background: 0 0;
+    color: #a8a8a8;
+    text-transform: capitalize;
+    margin-top: 6px
+}
+
+.footer-widgets .widget input[type=submit]:hover {
+    border-color: #fff;
+    color: #fff !important
+}
+
+.footer-widgets .widget form label {
+    font-size: 18px
+}
+
+.footer-widgets .widget {
+    margin: 0 0 30px
+}
+
+.site-footer .socials-menu:hover ul li a {
+    opacity: .3
+}
+
+.site-footer .socials-menu:hover ul li a:hover {
+    opacity: 1
+}
+
+.site-footer .socials-menu ul li a:hover:before {
+    color: #fff !important
+}
+
+.woocommerce div.product.layout-v6 .woocommerce-tabs .panel {
+    line-height: 1.2 !important
+}
+
+h1 {
+    font-size: 36px
+}
+
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.address-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.datepicker-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.dropdown-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.email-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.oneLineText-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk- .is-required-true .field-cover.textarea-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.address-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.datepicker-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.dropdown-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.email-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.oneLineText-cover::after,
+html .formcraft-css .fc-form.label-placeholder.remove-asterisk-false .is-required-true .field-cover.textarea-cover::after {
+    right: 5px
+}
+
+html .formcraft-css .fc-form .form-element.is-required-true .field-cover .main-label>span::after {
+    right: -10px
+}
+
+.page .page .entry-title {
+    font-size: 44px
+}
+
+h4 {
+    font-size: 18px !important
+}
+
+.vc_toggle_title h4 {
+    font-size: 15px !important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px
+}
+
+.hfeed .hentry .entry-title {
+    font-size: 24px;
+    line-height: 1.3
+}
+
+.hfeed .hentry .cat-links a {
+    font-size: 12px
+}
+
+.vc_row.cfa-no-gap>.vc_column_container,
+.cfa-no-gap .vc_column-inner {
+    padding: 0
+}
+
+.cfa-no-gap .vc_column-inner .vc_single_image-wrapper:hover img {
+    opacity: .5
+}
+
+.cfa-no-gap .vc_column-inner .vc_single_image-wrapper {
+    position: relative
+}
+
+.cfa-no-gap .vc_column-inner .vc_single_image-wrapper::before {
+    position: absolute;
+    display: block;
+    content: "\f002";
+    font: normal normal normal 16px/1 FontAwesome;
+    height: 20px;
+    width: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all .3s ease 0s
+}
+
+.cfa-no-gap .vc_column-inner .vc_single_image-wrapper:hover:before {
+    opacity: 1;
+    transition: all .3s ease 0s
+}
+
+.hfeed .hentry .entry-summary {
+    max-height: inherit
+}
+
+.woocommerce .quantity .qty {
+    border: none
+}
+
+#shipping_address_1_field input {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+    background-position: 8px 80%
+}
+
+.socials-menu a[href*="twitch.tv/"],
+.socials-menu a[href*="tiktok.com/"] {
+    position: relative;
+    height: 19px;
+    width: 16px;
+    display: inline-block;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    top: 4px
+}
+
+.socials-menu a[href*="twitch.tv/"] {
+    background-image: url(../../../../../../themes/konte-child/assets/twitch.svg)
+}
+
+.socials-menu a[href*="tiktok.com/"] {
+    background-image: url(../../../../../../themes/konte-child/assets/tiktok.svg);
+    background-size: 13px
+}
+
+.footer-container .socials-menu a[href*="twitch.tv/"],
+.footer-container .socials-menu a[href*="tiktok.com/"] {
+    opacity: .4
+}
+
+.footer-container .socials-menu a[href*="twitch.tv/"]:hover,
+.footer-container .socials-menu a[href*="tiktok.com/"]:hover {
+    opacity: 1
+}
+
+@media only screen and (max-width:1199px) {
+    .footer-widgets .footer-widgets-area {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .footer-widgets .footer-widgets-area {
+        margin-bottom: 20px
+    }
+    .vc_toggle.vc_toggle_ .vc_toggle_title,
+    .vc_toggle.vc_toggle_ .vc_toggle_content {
+        padding-right: 0
+    }
+    form.cart {
+        max-width: 320px
+    }
+    body form.cart .quantity {
+        width: 45% !important
+    }
+    body form.cart .single_add_to_cart_button {
+        width: 55% !important
+    }
+    .woocommerce div.product .single_add_to_cart_button {
+        min-width: 140px !important
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .footer-widgets.widgets-area {
+        padding-bottom: 50px
+    }
+    .page .page .entry-title {
+        font-size: 30px
+    }
+    .vc_toggle.vc_toggle_ .vc_toggle_title>h4 {
+        padding: 24px 0
+    }
+    .cfa-no-gap .wpb_single_image {
+        margin-bottom: 0
+    }
+    .cfa-no-gap .wpb_single_image .vc_single_image-wrapper img,
+    .cfa-no-gap .wpb_single_image .wpb_wrapper,
+    .cfa-no-gap .wpb_single_image .vc_single_image-wrapper {
+        width: 100%
+    }
+    .cfa-no-gap {
+        margin-bottom: 20px
+    }
+    .woocommerce div.product .quantity {
+        margin-bottom: 0 !important
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .page .page .entry-title,
+    h2 {
+        font-size: 24px
+    }
+    h3 {
+        font-size: 23px
+    }
+}
+
+.bg-pos-fixed {
+    background-attachment: fixed;
+    background-position: center 50%
+}
+
+#shipping_address_1_field input {
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+    background-position: 8px 80%
+}
+
+@media(max-width:991px) {
+    .woocommerce div.product.layout-v6 .woocommerce-tabs .tabs a:before {
+        border-bottom: 0 solid !important
+    }
+    .woocommerce div.product.layout-v6 .woocommerce-tabs .tabs li[class^=ywtm_] a:before {
+        border-bottom: none !important
+    }
+    .woocommerce-tabs .tabs li[class^=ywtm_] a:before {
+        border-bottom: none !important
+    }
+    @media(max-width:1199px) {
+        @supports(-webkit-touch-callout: none) {
+            .bg-pos-fixed {
+                background-attachment:scroll
+            }
+        }
+    }
+}
